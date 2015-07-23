@@ -1,0 +1,20 @@
+{
+  "name": "ng-mini-ws",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-connect": "^0.2.0",
+    "grunt-open": "^0.2.3",
+    "matchdep": "^0.3.0"
+  },
+  "description": "Angular WS for small project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "pk",
+  "license": "ISC"
+}

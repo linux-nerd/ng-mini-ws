@@ -1,0 +1,29 @@
+{
+  "name": "ng-mini-ws",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "components/jquery#~2.1.4",
+    "angular": "angular#~1.4.3",
+    "angular-route": "angular-route#~1.4.3",
+    "bootstrap": "~3.3.5"
+  },
+  "description": "Front End package management for small angular project",
+  "keywords": [
+    "front",
+    "end"
+  ],
+  "authors": [
+    "pk"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4"
+  }
+}
