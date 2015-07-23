@@ -7,6 +7,7 @@ In order to use this repo, check if
 * bower
 * git
 * grunt
+
 is installed on your system. Steps to get up and running - 
 
 1. Chnage directory to your work space ``` cd <<proj folder>> ```
