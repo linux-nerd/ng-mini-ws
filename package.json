@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.2",
+    "grunt-bowercopy": "^1.2.0",
     "grunt-connect": "^0.2.0",
     "grunt-open": "^0.2.3",
     "matchdep": "^0.3.0"

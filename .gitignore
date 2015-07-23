@@ -1,4 +1,5 @@
 ./node_modules
 ./bower_components
 ./.idea
-./public/script/vendor
+./public/scripts/vendor
+./public/css/vendor
