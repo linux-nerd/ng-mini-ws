@@ -23,6 +23,7 @@ That's it. You have correctly configured your workspace.
 ## What exactly is happening with all those commands?
 Lets talk about the folder structure first
 ng-mini-ws
+
 	|_ package.json
 	
 	|_ bower.json
