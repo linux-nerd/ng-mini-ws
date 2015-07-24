@@ -45,7 +45,8 @@ But it has no access to anything above the public directory.
 
 ### What if new bower package is installed?
 If new bower package is installed then the entry has to made in gruntfile.js for bowercopy task
-``` scripts: {
+```
+			scripts: {
                 options: {
                     destPrefix: 'public/scripts/vendor'
                 },
@@ -56,6 +57,7 @@ If new bower package is installed then the entry has to made in gruntfile.js for
                     'bootstrap.js': 'bootstrap/dist/js/bootstrap.js',
 					'filename to be there in public/scripts/vendor': 'relative path to the file inside bower_components'
                 }
+			}
 ```
 
 Apart from this you need to make an entry of the particular script in index.html.
