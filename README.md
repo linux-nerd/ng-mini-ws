@@ -24,26 +24,40 @@ That's it. You have correctly configured your workspace.
 Lets talk about the folder structure first
 ng-mini-ws
 	|_ package.json
+	
 	|_ bower.json
+	
 	|_ gruntfile.js
+	
 	|_ .gitignore
+	
 	|_ public
+	
 		|_ index.html
+		
 		|_ scripts
+		
 			|_ app.js
+			
 		|_ css
+		
 			|_ main.css
+			
 		|_ views
+		
 
 The running server points to public directory. This means that > public/index.html have access to everything inside public folder.
 But it has no access to anything above the public directory.
 
 ``` npm install ``` command will download the dev dependencies mentioned in the package.json file. It will create a node_modules directory at the same level as public dir.
+
 ``` bower install ``` command will download the dependencies mentioned in bower.json file. It will create a bower_components directory at the same level as public dir.
+
 ``` grunt startDev``` command will create a vendor directory in both public/scripts folder and public/css folder and will copy the files from bower_components to the respective folders.
+
 ``` grunt ``` command will start a server with public as the document root and open public/index.html in a browser.
 
-### What if new bower package is installed?
+## What if new bower package is installed?
 If new bower package is installed then the entry has to made in gruntfile.js for bowercopy task
 ```
 			scripts: {
